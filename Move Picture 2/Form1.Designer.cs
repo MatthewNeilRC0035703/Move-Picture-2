@@ -49,6 +49,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -98,6 +99,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "NORTH EAST";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -107,6 +109,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "SOUTH EAST";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -116,6 +119,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "NORTH WEST";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -125,6 +129,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "SOUTH WEST";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
